@@ -1,3 +1,21 @@
-[gd_scene format=3 uid="uid://4e38n6mnowno"]
+[gd_scene load_steps=4 format=3 uid="uid://4e38n6mnowno"]
+
+[ext_resource type="Script" path="res://character_body_2d.gd" id="1_vtpys"]
+[ext_resource type="Texture2D" uid="uid://dhd5lfyvbxenl" path="res://PIPOYA FREE RPG Character Sprites 32x32/Male/Male 01-1.png" id="2_pwpgy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7dw7d"]
+size = Vector2(265.5, 275.5)
 
 [node name="World Esteria" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("1_vtpys")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(609.25, 307.25)
+shape = SubResource("RectangleShape2D_7dw7d")
+
+[node name="Male01-1" type="Sprite2D" parent="CharacterBody2D"]
+position = Vector2(608.5, 307.5)
+scale = Vector2(2.76042, 2.17969)
+texture = ExtResource("2_pwpgy")
