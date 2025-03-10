@@ -30,6 +30,6 @@ libraries = {
 "": SubResource("AnimationLibrary_77o70")
 }
 
-[node name="Props-sheet" type="Sprite2D" parent="."]
+[node name="Props-sheet" type="Sprite2D" parent="AnimationPlayer"]
 position = Vector2(1371, 433)
 texture = ExtResource("3_5ysau")

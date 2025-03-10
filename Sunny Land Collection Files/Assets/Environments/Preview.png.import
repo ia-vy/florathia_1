@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cpjbe6gj8ivif"
-path="res://.godot/imported/Preview.png-d7ea8d176be5ee896d9254e74022e670.ctex"
+path="res://.godot/imported/Preview.png-f60c412583ebd8053c659d4e62c4af5f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sunny Land Collection Files/Assets/Environments/Woods/Preview.png"
-dest_files=["res://.godot/imported/Preview.png-d7ea8d176be5ee896d9254e74022e670.ctex"]
+source_file="res://Sunny Land Collection Files/Assets/Environments/Preview.png"
+dest_files=["res://.godot/imported/Preview.png-f60c412583ebd8053c659d4e62c4af5f.ctex"]
 
 [params]
 
